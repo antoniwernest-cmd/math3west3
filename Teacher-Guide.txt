@@ -1,0 +1,191 @@
+MATH LANDING ASSESSMENT — CURRENT TEACHER GUIDE
+
+GRADE 1 ADDITION - OCTOBER 29
+Grade 1 has orange-cat entry cards and four parts with five questions each.
+Part 1: counting and reading numbers. Part 2: building, composing and comparing.
+Part 3: addition, subtraction and a missing part. Part 4: shape and number patterns.
+Each response has its own mark; operations also retain a separate model mark.
+The trillium opens Grade 1 expectations. Locking, voice, saved PNG evidence,
+teacher audit code 5160 and assessment export code 259 use the existing tools.
+The original eight Excite/Inspire parts described below remain available.
+
+DEPLOYMENT
+Open Math-Landing-Assessment-Deployment/index.html. Upload the entire deployment
+folder for hosting, preserving assets/, vendor/, JavaScript and CSS files beside
+index.html. The folder is supplied unzipped. standalone.html is an additional
+self-contained copy with the same scripts, fonts and artwork embedded.
+The original editable files are also in Math-Landing-Assessment/.
+Replace the index at the same address and retain the same browser to retain local work.
+The original Math Landing project was reused and was not overwritten.
+
+EIGHT PARTS
+excite-1: 12 questions; maximum 22 points.
+excite-2: 12 questions; maximum 22 points.
+excite-3: 12 questions; maximum 30 points.
+inspire-1: 12 questions; maximum 23 points.
+inspire-2: 12 questions; maximum 22 points.
+inspire-3: 12 questions; maximum 33 points.
+excite-4: 3 questions; maximum 8 points.
+inspire-4: 3 questions; maximum 14 points.
+There are 78 distinct selected questions and 120 available page codes. The page-code
+list is retained. Parts 1-3 retain 12 questions each. Part 4 starts with three new questions per grade. Question
+definitions and rubric totals are stored with each attempt. Locked and completed
+historical work keeps its original definitions, scores and PNGs.
+
+STUDENT FLOW
+One question fills the screen. Students drag or tap their responses; they do not
+type answers. Only the teacher entry/name and teacher tools contain text inputs.
+Start voice and Stop voice read the question. A small current-page PNG is available.
+Selected choices turn bright orange and grow slightly, regardless of correctness.
+3D stars show progress. Lock in your answer saves the response and page PNG, then
+advances. Complete wrong answers and wrong models are accepted. Empty required
+responses receive a neutral reminder. The assessment does not reveal correct answers.
+The last locked response leads to Complete — Please call your teacher.
+
+DRAGGING AND EXCHANGES
+Native Math Landing block values, colours and action history are reused. Blocks can
+move in both directions on accepted pads and can be placed at the drop position.
+Moving one does not rearrange the others. An overlapping drop moves only the dropped
+block to the nearest clear position on the same pad. Values and original colours
+are retained. Unit cubes are scattered, have a strong shadow and remain readable.
+Group and Ungroup controls show larger cats with blue T and red U flags. Exchanges
+are recorded with their pad, input value/count and output value/count. Undo reverses
+undone exchange evidence, and Reset clears it. Addition cross-pad drag/tap observations
+are reported separately from answer scores; Undo does not erase an observed drag.
+
+FOCUSED TASKS AND SCORING
+Before/after questions show a prominent central number and a landing pad on either
+side. Before and After each earn their own point. Number tiles may be dragged again.
+Comparison questions place the symbol pad between two prominent numbers. Students
+drag >, < or = onto it. Pattern blanks remain labelled and accept draggable tiles.
+Two-ways questions use numbered 3D shapes valued 1, 5, 10, 20, 50 and 100. Both pads
+are real working areas. Large collections on a tablet use a full-width Way switch. Each correct total earns one point. Two different value
+combinations making the target earn a third point; changing positions alone does not.
+Excite Part 2 NS2-0015 is 64 − 8. Inspire Part 2 NS3-0015 is 718 − 235. Students tap
+to colour the amount left. Tens and Ones have appropriate Ungroup/Regroup controls.
+The final answer, coloured remainder and observed required exchange are scored
+separately. A wrong model never prevents locking a completed response.
+OP2-0013 asks only for the nearest ten to 18 and to 7. Both responses are assessed
+independently. No estimate or actual-sum response is required. This is a Grade 2
+teacher-requested extension, identified separately from required curriculum evidence.
+OP3-0013 asks for 198 rounded to the nearest ten. Each number-line task scores the
+actual locked marker position; successful marker drags are reported separately.
+
+TEACHER AUDIT AND RESULTS
+The wheel uses 5160. Its original Math Landing Edit sheet, reasons, notes, page-code
+jump, Print audit, Screen PNG and audit PNG Excel workflow remain available. Teacher
+access enables the Edit tick on the current assessment screen. In Audit pages,
+Previous page and Next page review all eight parts without entering answers. Next
+continues into the following part and Previous returns to the preceding part.
+Preview work stays separate from the student attempt and does not record scores.
+Assessment results use 259. Instructions and curriculum explanations appear beside
+the score. Every response field has its own mark. Model and exchange marks are
+separate where specified. Teacher review and manual overrides remain available.
+The Excel assessment includes Detailed scoring, Field scoring, Group and ungroup,
+Block movement where relevant, and a full saved student PNG on each question tab.
+Each evidence tab prints on one landscape page. Parent PDF reports actual submitted
+work, separate results, saved pictures, goals, support and next steps. It labels
+unfinished attempts and pending teacher review. No answer key is included.
+
+STORAGE AND NEW STUDENTS
+Records and PNG evidence use IndexedDB; optional native caches are quota safe.
+A failed save retains the response on screen and does not advance. Clear / New
+student clears the displayed learner and teacher access while preserving prior
+attempts. Reusing an ID resumes saved work. Save / restore full backup is available
+before moving to another browser or device. Do not clear browser data for a new student.
+
+VERIFICATION
+All 114 pages were checked at 1280x720 and 800x600, with additional interaction checks
+for both grades and compact views. See Interactive-page-layout-audit.csv and
+Assessment-verification.txt. Actual wrong numbered-shape work locked, saved a PNG,
+advanced to the next page and exported as 0/3 in Excel and the parent PDF. A real
+coloured 483 remainder conserved 718 and recorded the hundred-to-tens exchange.
+
+PAGE CATALOGUE PDF DOWNLOADS AND BUSINESS ARTWORK
+The Page catalogue PDFs button is on the entry page. Catalogue PDFs is also in
+teacher page review. Choose Excite or Inspire: the two separate files include all
+61 Excite or 59 Inspire available question pages, plus a clickable page-code index.
+Parts 1–4 appear first; additional available pages follow. Each page is unanswered,
+has its stable page code and curriculum explanation, and includes a Back to index
+link. The PDFs contain no student names, submissions or scores. The files are
+embedded in the deployment index and download directly, including offline use.
+These catalogue previews are separate from each student's results PDF.
+
+All eight entry buttons show different business outfits. The guides, completion
+cats, Trade/Ungroup flag cats and current parent-report mascot also wear business
+clothes. Historical saved evidence remains as originally submitted. The business
+artwork prompts and final asset paths are in Business-Button-Cats-Prompts.txt.
+
+PROMINENT QUESTIONS AND LARGER MODELS
+The shared question presentation is applied to all eight sections. The task appears
+large and centered directly above its model, or together with the response area
+on choice-only pages. The shell header is compact to free working space. Prompts
+measure at least 36px on the checked laptop view and 26px on the checked tablet
+view. Smaller screens use 23–26px prompts. Instructions remain available without
+revealing correctness or requiring a strategy before locking.
+Colour subtraction has larger rods and cubes, compact answer rows and separate
+Tens/Ones exchange controls in both grades. Existing tokens, colours, scores and
+exchange evidence are retained. New loose cubes are kept apart after exchanges.
+Two-digit decomposition uses horizontal rods and larger proportional one-cubes.
+The original SVG drag handler is preserved; the scaled artwork is nested inside
+each draggable group so dragging never changes its size.
+Teacher review has a larger preview. Open Instructions and curriculum beneath
+the preview to see those details. Previous/Next, Edit and audit exports remain.
+Excite Part 2 OP2-0446 places 48 between 40 and 50; Inspire Part 2 NS3-0651 places
+670 between 600 and 700. Each scores the locked position and records marker drags.
+Both grade PDF catalogues were regenerated to match the updated presentation.
+Rocky-Click-and-Drag.png is a separate business-wear demonstration illustration.
+
+SPACE AND EXCHANGE LAYOUT UPDATE
+Before/After pads and their number tiles share a centered, enlarged layout in
+both grades. The block fitter now supplies the displayed size after exchanges,
+and empty place-value columns release their space. Four exchange controls use
+one compact row on smaller screens so the model remains visible. Loose ones use
+their own available space and do not overlap in the initial layouts. Dragging
+retains source colour and student placement. Existing scoring, page codes and
+teacher access remain in place. Refresh the assessment to load this version.
+
+PART 4 AND CURRICULUM UPDATE
+Part 4 adds expanded-form choices, equal pencil sharing and subtraction jumps.
+Excite: NS2-0571 (47), OP2-0185 (12 pencils / 3 children), OP2-0276 (17 minus 5).
+Inspire: NS3-0608 (250), OP3-0424 (65 pencils / 9 children), OP3-0302 (912 minus 225).
+Expanded-form expressions stay on one line in one answer row. Every pencil is
+visible and movable; plus/minus controls provide an alternative. Each child's
+share, the leftovers and allocation of all pencils have independent marks.
+Subtraction jumps and the chosen answer have independent marks. Using jumps is
+not required to submit an answer. A partially attempted or incorrect sharing model
+can be locked; an untouched model receives a neutral response reminder.
+All eight sections are in the teacher planner and Previous/Next review. Existing
+attempts and Parts 1-3 are preserved. See Assessment-four-part-plan.csv.
+The Curriculum button on entry, questions and completion opens the full expectation
+and official source. Teacher page review also has Curriculum access. Every question
+in the parent PDF now includes its curriculum codes and expectation explanations.
+New pages passed one-screen checks at 1280x720, 800x600 and 390x844, including all
+65 pencils and a single row of expanded-form choices. Full student-flow checks
+recorded 8/8 in Excite and accepted wrong work as 0/14 in Inspire.
+The two catalogues now have 61 and 59 question pages, each plus an index page.
+
+CHROMEBOOK DISPLAY AND PAGE NOTES - 2026-10-29
+Short laptop screens now give more space to the models. Loose ones receive more
+column width instead of shrinking with the tens/hundreds fitter. Block sets,
+blocks and answer values have strong shadows. Native values, colours, dragging,
+grouping, ungrouping and scoring are retained for both grades and all four parts.
+All 120 available pages passed layout checks at 1366x600, 1024x600, 1280x720 and
+800x600 without scrolling, offscreen controls, clipped faces or overlapping ones.
+Ninety grouping/ungrouping checks conserved values and readable block sizes.
+
+A discreet Page note checkbox is on the screen header and teacher review header.
+Tick it when the current page needs attention. It saves with the learner attempt
+and permanent page code. Entry/completion screens also have a page attention flag.
+A tick stays saved through reloading, changing pages, Undo, Reset and New student.
+Clicking a tick opens an override form; only 259 clears it. A wrong code or Cancel
+keeps it ticked. Audit access (5160) does not bypass this requirement.
+Teacher results label flagged pages, and the PNG Excel assessment includes a
+Page notes sheet with the page code, attention state and flag/clear timestamps.
+Page notes do not change scores or count as student answers. Full backups include
+these records. Restoring a backup preserves page-note records already on the device.
+Actual browser checks verified cancellation, wrong/correct codes, reload persistence,
+separate page flags and an exported Page notes record alongside a 0/1 wrong answer.
+Both PDF catalogues were regenerated with the new presentation.
+Copy/upload the entire unzipped deployment folder, including assets/ and vendor/.
+Reopen its index.html on the Chromebook after replacing the older copy.

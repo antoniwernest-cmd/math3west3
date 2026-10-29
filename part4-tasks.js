@@ -1,0 +1,44 @@
+/* Keep Math Landing's token transport, history and number-line jumps. */
+window.ML_PART4_TASKS=(()=>{'use strict';
+ function shareGrade(q,response){const tokens=response.tokens||[],attempt=!!response.pencilTouched||tokens.some(t=>t.loc!=='bank'),each=Math.floor(q.items/q.sharers),left=q.items%q.sharers,checks=[];
+  const mark=(field,actual,expected,context=true)=>checks.push({field,actual,expected,entered:attempt,correct:attempt&&context&&actual===expected});
+  for(let i=0;i<q.sharers;i++)mark('Child '+(i+1)+' pencils',tokens.filter(t=>t.loc==='g'+i).length,each);
+  const unassigned=tokens.filter(t=>t.loc==='bank').length;mark('Leftover pencils',tokens.filter(t=>t.loc==='leftover').length,left,unassigned===0);mark('Pencils still to share',unassigned,0);
+  return{complete:attempt,correct:attempt&&checks.every(c=>c.correct),answerChecks:checks};
+ }
+ function sharing(){
+  const pack=loc=>'<div class="pencil-pack">'+at(loc).map(t=>'<button type="button" class="pencil-token" data-piece="'+t.id+'" aria-label="Move one pencil"><span aria-hidden="true">✏️</span></button>').join('')+'</div>',counter=(loc,label)=>'<div class="pencil-counter"><button type="button" data-pencil-adjust="'+loc+':-1" aria-label="Return one pencil from '+label+'" '+(!at(loc).length?'disabled':'')+'>−</button><output>'+at(loc).length+'</output><button type="button" data-pencil-adjust="'+loc+':1" aria-label="Give one pencil to '+label+'" '+(!at('bank').length?'disabled':'')+'>+</button></div>';
+  return '<div class="pencil-share" style="--pencil-rows:'+Math.ceil(q.sharers/3)+';--pencil-phone-rows:'+Math.ceil(q.sharers/2)+'"><div class="pencil-source"><section class="pencil-bank" data-drop="bank"><h2>Still to share: '+at('bank').length+'</h2>'+pack('bank')+'</section><section class="pencil-leftovers" data-drop="leftover"><h2>Leftovers</h2>'+counter('leftover','leftovers')+pack('leftover')+'</section></div><div class="pencil-children">'+Array.from({length:q.sharers},(_,i)=>'<section class="pencil-child" data-drop="g'+i+'"><h2>Child '+(i+1)+'</h2>'+counter('g'+i,'child '+(i+1))+pack('g'+i)+'</section>').join('')+'</div></div>';
+ }
+ function install(shareGrade){const cfg=ML_CONFIG,api=window.ML_AUDIT10_REVISED;if(!api||!window.ML_ENGINE)return;const pencil=!!cfg.assessment?.pencilShare,jump=!!cfg.assessment?.jumpAssessment;if(!pencil&&!jump)return;
+  const raw=ML_ENGINE.get.bind(ML_ENGINE),q=api.q;let queued=false;
+  ML_ENGINE.get=()=>{const snapshot=raw();if(pencil){const assessment=shareGrade(q,snapshot.response);return{...snapshot,assessment:{...snapshot.assessment,...assessment,checked:false,message:''},response:{...snapshot.response,pencilEvidence:{total:q.items,children:q.sharers,shares:Array.from({length:q.sharers},(_,i)=>snapshot.response.tokens.filter(t=>t.loc==='g'+i).length),leftovers:snapshot.response.tokens.filter(t=>t.loc==='leftover').length,unassigned:snapshot.response.tokens.filter(t=>t.loc==='bank').length}}};}
+   const jumps=snapshot.response.jumps?.[0]||[],landing=q.a+jumps.reduce((n,v)=>n+v,0),checks=[...(snapshot.assessment.answerChecks||[]),{field:'Number-line jumps',actual:q.a+(jumps.length?' '+jumps.map(v=>(v<0?'−':'+')+Math.abs(v)).join(' '):' (no jumps)')+' → '+landing,expected:'Land on '+q.answer+' after subtracting '+q.b,entered:true,correct:landing===q.answer}];return{...snapshot,assessment:{...snapshot.assessment,answerChecks:checks,checked:false,message:''},response:{...snapshot.response,jumpEvidence:{start:q.a,jumps:[...jumps],landing,subtracted:q.a-landing}}};
+  };
+  const ro=new ResizeObserver(schedule);ro.observe(document.documentElement);
+  function paint(){queued=false;if(pencil)for(const pack of document.querySelectorAll('.pencil-pack')){const n=pack.children.length,w=pack.clientWidth,h=pack.clientHeight;if(!n||!w||!h)continue;let best={size:4,cols:1};for(let cols=1;cols<=n;cols++){const rows=Math.ceil(n/cols),size=Math.min(34,(w-(cols-1)*2)/cols,(h-(rows-1)*2)/rows);if(size>best.size)best={size,cols};}pack.style.setProperty('--pencil-size',Math.floor(best.size)+'px');pack.style.setProperty('grid-template-columns','repeat('+best.cols+',minmax(0,1fr))','important');}
+   parent.postMessage({type:'ml-state',id:cfg.id,payload:ML_ENGINE.get()},'*');
+  }
+  function schedule(){if(!queued){queued=true;requestAnimationFrame(paint)}}
+  if(pencil)document.addEventListener('click',e=>{const b=e.target.closest('[data-pencil-adjust]');if(!b)return;e.preventDefault();e.stopImmediatePropagation();const[loc,delta]=b.dataset.pencilAdjust.split(':'),t=api.state().tokens.find(t=>t.loc===(+delta>0?'bank':loc));if(t)api.action(()=>t.loc=+delta>0?loc:'bank')},true);
+  new MutationObserver(schedule).observe(document.querySelector('.rv-activity'),{childList:true,subtree:true});addEventListener('resize',schedule);document.fonts.ready.then(schedule);paint();
+ }
+ const css=`
+ .rv-activity.rv-type-share:has(.pencil-share){grid-template-rows:auto minmax(0,1fr) auto!important}.rv-type-share .rv-work:has(>.pencil-share){display:block!important;min-height:0!important}
+ .pencil-share{display:grid!important;grid-template-columns:minmax(180px,24%) minmax(0,1fr)!important;gap:10px!important;width:100%;height:100%;min-height:0}
+ .pencil-source{display:grid;grid-template-rows:minmax(0,1fr) minmax(85px,.45fr);gap:8px;min-height:0}
+ .pencil-bank,.pencil-leftovers,.pencil-child{display:flex;flex-direction:column;min-height:0;min-width:0;padding:7px;gap:4px;border:2px solid #b4c9a6;border-radius:12px;background:#fffdf5}
+ .pencil-bank{background:#fff1cf}.pencil-leftovers{background:#eee4f3;border-style:dashed}.pencil-children{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(var(--pencil-rows),minmax(0,1fr));gap:8px;min-height:0}
+ .pencil-share h2{font-size:17px!important;line-height:1.1!important;text-align:center;margin:0!important;flex:none}.pencil-counter{display:flex;justify-content:center;align-items:center;gap:5px;flex:none}.pencil-counter button{min-width:31px!important;min-height:29px!important;height:29px!important;padding:1px 5px!important;font-size:22px!important}.pencil-counter output{font-size:20px;font-weight:bold;min-width:26px;text-align:center}
+ .pencil-pack{display:grid;align-content:center;justify-items:center;align-items:center;gap:2px;flex:1;min-height:0;min-width:0;overflow:visible!important}
+ .pencil-pack .pencil-token{display:grid;place-items:center;width:var(--pencil-size,20px)!important;height:var(--pencil-size,20px)!important;min-width:0!important;min-height:0!important;padding:0!important;margin:0!important;border:0!important;border-radius:3px!important;background:transparent!important;box-shadow:none!important;font-size:var(--pencil-size,20px)!important;line-height:1!important;touch-action:none}
+ .pencil-token span{font-size:inherit;line-height:1;filter:drop-shadow(1px 2px 1px #684a3260)}
+ .rv-type-jumps .rv-jumps{justify-content:center!important;gap:8px!important}.rv-type-jumps .rv-jumps button{white-space:nowrap!important}
+ @media(max-width:900px),(max-height:450px){.pencil-share{grid-template-columns:minmax(160px,27%) minmax(0,1fr)!important;gap:7px!important}.pencil-share h2{font-size:14px!important}.pencil-children{gap:5px}.pencil-bank,.pencil-leftovers,.pencil-child{padding:4px;gap:3px}.pencil-counter{gap:3px}.pencil-counter button{min-width:28px!important;min-height:26px!important;height:26px!important;font-size:20px!important}.pencil-counter output{font-size:18px;min-width:21px}}
+ @media(max-width:600px){.pencil-share{grid-template-columns:110px minmax(0,1fr)!important;gap:5px!important}.pencil-children{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(var(--pencil-phone-rows),minmax(0,1fr))}.pencil-share h2{font-size:11px!important}.pencil-counter button{min-width:21px!important;padding:1px 3px!important}.pencil-counter output{font-size:15px;min-width:17px}.pencil-bank,.pencil-leftovers,.pencil-child{padding:3px;gap:2px}}
+ `;
+ function inject(html,cfg){if(!cfg.assessment?.pencilShare&&!cfg.assessment?.jumpAssessment)return html;if(cfg.assessment.pencilShare){const start=html.indexOf('function sharing(){'),end=html.indexOf('const shape=i=>',start);if(start<0||end<0)throw Error('The original sharing renderer is unavailable.');html=html.slice(0,start)+sharing.toString()+'\n'+html.slice(end);html=html.replace("type==='share'?['bank',...", "type==='share'?['bank','leftover',...");html=html.replace("fn();if(q.type==='chartChallenge')","fn();if(cfg.assessment?.pencilShare)s.pencilTouched=true;if(q.type==='chartChallenge')");html=html.replace("(!hideAnswer?answerButtons(q.answer,opts):'')","(!hideAnswer&&!cfg.assessment?.pencilShare?answerButtons(q.answer,opts):'')");}
+  return html.replace('</body>','<style>'+css+'</style><script>addEventListener("load",()=>('+install.toString()+')('+shareGrade.toString()+'),{once:true});<\/script></body>');
+ }
+ return{inject,shareGrade};
+})();

@@ -1,0 +1,344 @@
+{
+  "source": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment",
+  "created": "2026-10-27",
+  "reused": [
+    "revised and approved-workbook engines with original base-ten 3D paint, state and assessment bridge",
+    "permanent page IDs and curriculum metadata",
+    "ExcelJS and html2canvas",
+    "learner-assessment.js",
+    "assessment-excel-pages.js",
+    "response-summary.js",
+    "profiles.js and rover-images.js",
+    "Andika font",
+    "screen-pdf.js",
+    "Original teacher-admin.js editor/reasons/state/capture and audit-print.js PNG Excel exporter, adapted to assessment DOM and separate storage",
+    "Original toy-car equal-groups pages, number-skills workshop and full count/expanded-form reader"
+  ],
+  "changes": [
+    "separate four-section assessment shell",
+    "neutral locked-answer workflow",
+    "teacher-only scoring and PNG evidence exports",
+    "Parent results PDF using recorded answers, PNGs, scores and teacher notes",
+    "Required ungrouping subtraction with original drag, tap and exchange controls",
+    "Original missing-number pages with blue and orange sides, a buildable landing pad and teacher model scoring",
+    "Forty user-specified question variants using the original revised block engine, with dedicated stable AS page codes",
+    "Zero-height layout guard in the reused block fitter; compact explanation layout; teacher results follow the current student",
+    "Four simultaneously visible, distinctly coloured balance pads",
+    "23-ones addition probe with independent answer, model and observed trade scoring",
+    "Bright orange 4.5% enlarged button feedback",
+    "Update unlocked question definitions without changing locked records",
+    "Prominent clickable audit edit sheets, saved-sheet reopening, active-page selection and preserved unique page-code list",
+    "IndexedDB assessment records with safe legacy migration, transaction acknowledgments, preserved PNG evidence and blank-response lock reminders",
+    "New student handoff preserving records",
+    "Individually scoped orange feedback and number-button answers",
+    "Persistent live-screen teacher edit tick after wheel unlock",
+    "Neutral test submission without requiring ungrouping",
+    "Matching choice-driven block displays with separately recorded manual work",
+    "Larger progress box and reused mummy guides",
+    "Faceted 3D progress stars; moved addition blocks keep their source-set colours",
+    "All student responses use choices or models, including number names and explanations",
+    "Draggable labelled pattern blanks with separate field scores",
+    "Twelve requested original-code pages across four 18-question assessments",
+    "Grade 2 rounding extensions excluded from the Grade 2 score",
+    "Missing-number bank directly above its drop pad",
+    "Stable scattered loose ones, including original static block pictures",
+    "Larger proportional 3D blocks through adaptive model columns and smaller controls",
+    "One-screen tool switches for short and narrow workshop, estimation and reader views",
+    "107-page laptop and compact-screen layout audit, with alternate views checked",
+    "Content-sized choices across all answer banks; compact decomposition row gives model more height",
+    "Disable the competing native answer-bank fitter in assessment mode",
+    "Load response and pattern adapters after native engine initialization",
+    "Refresh unfinished saved question definitions for current response controls",
+    "Two colours across four equation pads: blue left side and purple right side",
+    "Three 12-question parts for each grade, retaining 72 question placements in order",
+    "Versioned attempts preserve earlier work while new attempts use the three-part plan",
+    "Six responsive entry cards and grade/part choices in audit, reports and backup",
+    "Record successful addition drags and taps across sets, including counts and both directions, independently of answer marks",
+    "Show block movement evidence in teacher reports, a dedicated Excel sheet and parent PDF",
+    "Retain source colours and provide a native-action fallback for cross-pad drops",
+    "Allow an answer click immediately after dragging",
+    "Distinct Rocky and Luna entry costumes for Parts 1, 2 and 3",
+    "Self-repair unfinished pattern definitions even after a previous migration; idempotent response-control initialization and load verification",
+    "Shared pointer controls reuse native state, moves, exchanges and Undo across all assessment engines",
+    "Known balance pads are movable; balance model scoring checks both equation sides",
+    "Workshop native state bridge exposed; reading and SVG model blocks can be rearranged",
+    "Native model drafts persist in IndexedDB; optional cache quota cannot stop actions; PNG captures preload live model state",
+    "Pattern tile bank placed directly under the blanks",
+    "Synchronous destination-view switching after narrow-screen cross-pad drops",
+    "Before/After pads on either side of a prominent number, with separate marks",
+    "Draggable comparison symbols between prominent numbers",
+    "Two real numbered-shape pads with values 1, 5, 10, 20, 50 and 100",
+    "Colour subtraction, place-value exchanges and per-pad exchange evidence",
+    "Wrong complete responses always advance; empty responses receive a reminder",
+    "Free block placement with nearest-clear correction for an overlapping drop",
+    "Large red U and blue T flag cats; readable unit cubes and strong shadows",
+    "Rounding-only Grade 2 task with separate marks; no estimate or actual sum",
+    "Compact ten-frame rows and larger-model Way switch",
+    "Two embedded offline downloadable grade catalogues covering all 114 available pages with linked indexes",
+    "Business outfits throughout current cat artwork, including six different entry outfits",
+    "Teacher Previous/Next page review across six parts without submitting answers or changing student records",
+    "Shared large centered question presentation across all six parts, compact shell and answer rows",
+    "Larger colour-subtraction rods and cubes, clear post-exchange placement, and proportional horizontal two-digit SVG models retaining native drag handlers",
+    "Larger teacher preview with expandable instructions/curriculum; refreshed PDF catalogues"
+  ],
+  "starterPages": {
+    "schema": 1,
+    "provisional": false,
+    "sections": [
+      {
+        "key": "excite-1",
+        "grade": 2,
+        "part": 1,
+        "pages": [
+          "NS2-0011",
+          "NS2-0636",
+          "AS2-0021",
+          "OP2-0060",
+          "PA2-0007",
+          "AS2-0001",
+          "AS2-0002",
+          "AS2-0003",
+          "AS2-0004",
+          "AS2-0005",
+          "AS2-0006",
+          "AS2-0007"
+        ]
+      },
+      {
+        "key": "excite-2",
+        "grade": 2,
+        "part": 2,
+        "pages": [
+          "AS2-0008",
+          "AS2-0009",
+          "AS2-0010",
+          "OP2-0141",
+          "NS2-0642",
+          "OP2-0013",
+          "NS2-0049",
+          "NS2-0637",
+          "OP2-0066",
+          "OP2-0060",
+          "PA2-0007",
+          "AS2-0011"
+        ]
+      },
+      {
+        "key": "excite-3",
+        "grade": 2,
+        "part": 3,
+        "pages": [
+          "AS2-0012",
+          "AS2-0013",
+          "AS2-0014",
+          "AS2-0015",
+          "AS2-0016",
+          "AS2-0017",
+          "AS2-0018",
+          "AS2-0019",
+          "AS2-0020",
+          "OP2-0217",
+          "NS2-0828",
+          "NS2-0001"
+        ]
+      },
+      {
+        "key": "inspire-1",
+        "grade": 3,
+        "part": 1,
+        "pages": [
+          "NS3-0009",
+          "NS3-0673",
+          "OP3-0044",
+          "OP3-0051",
+          "PA3-0004",
+          "AS3-0001",
+          "AS3-0002",
+          "AS3-0003",
+          "AS3-0004",
+          "AS3-0005",
+          "AS3-0006",
+          "AS3-0007"
+        ]
+      },
+      {
+        "key": "inspire-2",
+        "grade": 3,
+        "part": 2,
+        "pages": [
+          "AS3-0008",
+          "AS3-0009",
+          "AS3-0010",
+          "OP3-0025",
+          "NS3-0679",
+          "OP3-0013",
+          "NS3-0047",
+          "NS3-0674",
+          "OP3-0078",
+          "OP3-0051",
+          "PA3-0004",
+          "AS3-0011"
+        ]
+      },
+      {
+        "key": "inspire-3",
+        "grade": 3,
+        "part": 3,
+        "pages": [
+          "AS3-0012",
+          "AS3-0013",
+          "AS3-0014",
+          "AS3-0015",
+          "AS3-0016",
+          "AS3-0017",
+          "AS3-0018",
+          "AS3-0019",
+          "AS3-0020",
+          "OP3-0241",
+          "NS3-0860",
+          "NS3-0001"
+        ]
+      }
+    ],
+    "contentRevision": "three-parts-v1",
+    "appendedSubtraction": {
+      "2": "OP2-0060",
+      "3": "OP3-0051"
+    },
+    "appendedBalance": {
+      "2": "PA2-0007",
+      "3": "PA3-0004"
+    },
+    "appendedListed": {
+      "excite-1": [
+        "AS2-0001",
+        "AS2-0002",
+        "AS2-0003",
+        "AS2-0004",
+        "AS2-0005",
+        "AS2-0006",
+        "AS2-0007",
+        "AS2-0008",
+        "AS2-0009",
+        "AS2-0010"
+      ],
+      "excite-2": [
+        "AS2-0011",
+        "AS2-0012",
+        "AS2-0013",
+        "AS2-0014",
+        "AS2-0015",
+        "AS2-0016",
+        "AS2-0017",
+        "AS2-0018",
+        "AS2-0019",
+        "AS2-0020"
+      ],
+      "inspire-1": [
+        "AS3-0001",
+        "AS3-0002",
+        "AS3-0003",
+        "AS3-0004",
+        "AS3-0005",
+        "AS3-0006",
+        "AS3-0007",
+        "AS3-0008",
+        "AS3-0009",
+        "AS3-0010"
+      ],
+      "inspire-2": [
+        "AS3-0011",
+        "AS3-0012",
+        "AS3-0013",
+        "AS3-0014",
+        "AS3-0015",
+        "AS3-0016",
+        "AS3-0017",
+        "AS3-0018",
+        "AS3-0019",
+        "AS3-0020"
+      ]
+    },
+    "requestedPages": {
+      "excite-1": [
+        "OP2-0141",
+        "NS2-0642",
+        "OP2-0013"
+      ],
+      "excite-2": [
+        "OP2-0217",
+        "NS2-0828",
+        "NS2-0001"
+      ],
+      "inspire-1": [
+        "OP3-0025",
+        "NS3-0679",
+        "OP3-0013"
+      ],
+      "inspire-2": [
+        "OP3-0241",
+        "NS3-0860",
+        "NS3-0001"
+      ]
+    },
+    "partsPerGrade": 3
+  },
+  "artwork": {
+    "tool": "built-in image generation",
+    "prompt": "Preserve Rocky the tabby and Luna the charcoal cat; dress both in ivory mummy costumes, friendly Pixar-style 3D rendering, transparent background."
+  },
+  "updated": "2026-10-28",
+  "entryCostumes": {
+    "part1": {
+      "rocky": "mummy",
+      "luna": "mummy",
+      "source": "Existing assessment artwork"
+    },
+    "part2": {
+      "rocky": "Dracula",
+      "luna": "Frankenstein",
+      "source": "Original Math Landing Halloween artwork"
+    },
+    "part3": {
+      "rocky": "pirate",
+      "luna": "wizard",
+      "source": "Built-in image generation",
+      "asset": "assets/entry-pirate-wizard.png",
+      "promptRecord": "../Entry-costume-artwork.txt"
+    }
+  },
+  "verification": {
+    "date": "2026-10-28",
+    "interactivePages": 114,
+    "additional800x600Layouts": 114,
+    "liveStudentSequence": "Wrong two-way model locked, saved a PNG, advanced and exported 0/3. Before/After and comparison drags checked. Coloured 483 remainder and exchanges checked in both grades.",
+    "exports": "Actual wrong-model Excel and parent PDF checked; actual colour snapshot Excel checked at 3/3; parent report visually checked.",
+    "phone": "Immediate both-way dragging, subtraction exchange and two-blank pattern verified",
+    "largestModel": "150 numbered shapes on each pad: all fit at 1280x720; full-width Way switch at 800x600; no clipped shapes.",
+    "catalogues": "58 Excite and 56 Inspire question pages plus linked indexes; all 114 screenshots unanswered; exact browser downloads match embedded PDF hashes.",
+    "teacherNavigation": "All 72 selected pages traversed forward and backward without answers; student records unchanged. Actual UI Next and cross-part Previous/Next checked.",
+    "businessLayout": "Six business entry cats and catalogue dialog fit 1280x720, 800x600 and 390x844. Teacher navigation fits 800x600.",
+    "questionFocus": {
+      "laptop": "114 pages, 1280x720, prompt >=36px, no clipping or scrolling",
+      "tablet": "114 pages, 800x600, prompt >=26px, no clipping or scrolling",
+      "compact": "8 task types, 390x844",
+      "interaction": "Native enlarged SVG drag retains size; colour ungroup makes 14 separate cubes; largest shape collections fit both views."
+    },
+    "workingSpaceAndExchange": "114 pages at both 1280x720 and 800x600: centered child bounds, no scrolling/off-screen controls/clipped faces/overlapping initial loose cubes. 192 native exchange actions preserve value and displayed faces >=8px. Exact 12 ones regroup, Before/After pointer drags and colour-preserving two-way block transport visually checked. Catalogue previews refreshed."
+  },
+  "tradeUngroupArtwork": {
+    "file": "assets/trade-ungroup-cats.png",
+    "mode": "Built-in imagegen",
+    "promptRecord": "../Business-Button-Cats-Prompts.txt"
+  },
+  "businessArtwork": {
+    "mode": "Built-in imagegen",
+    "promptRecord": "../Business-Button-Cats-Prompts.txt",
+    "assets": [
+      "assets/business-button-cats.png",
+      "assets/business-guides.png",
+      "assets/trade-ungroup-cats.png"
+    ],
+    "legacyAliases": "Nine legacy artwork keys resolve to the business guide pair."
+  }
+}

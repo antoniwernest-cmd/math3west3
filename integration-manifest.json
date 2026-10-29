@@ -1,0 +1,419 @@
+{
+  "sourceThread": "Oct.28.Math.Landing.Assessment",
+  "sourceDirectory": "C:/Users/anton/Documents/Codex/2026-10-27/m/outputs/Math-Landing-Assessment-Deployment",
+  "targetSection": "assessment",
+  "integratedOn": "2026-10-29",
+  "excluded": [
+    "standalone.html (duplicate bundled version)",
+    "math1west1assessment/ (duplicate older deployment)"
+  ],
+  "preservedFiles": [
+    {
+      "file": "assessment-core.js",
+      "bytes": 8034,
+      "sha256": "5084f4958072e15a99f9bd2fd6c9e899ab724a041ef69a5ef189ff01012dbdc2"
+    },
+    {
+      "file": "Assessment-four-part-plan.csv",
+      "bytes": 5146,
+      "sha256": "2718c44d80b7d958d9a040c82f684e8d185c3b8363d17712ee8cc7ba2cf59c89"
+    },
+    {
+      "file": "assessment-plan.js",
+      "bytes": 2716,
+      "sha256": "17fb54f5eead07acf1b2245fc2463dd01ef834b85781986f25c74aae08657ddd"
+    },
+    {
+      "file": "assessment-refinements.js",
+      "bytes": 31039,
+      "sha256": "72ab84df973f3a0d6ccaf4424ad50b2473c7a95d296783de74b80354c387f8af"
+    },
+    {
+      "file": "assessment-storage.js",
+      "bytes": 3347,
+      "sha256": "153dcdef9b8f430615662f22afd56bf7203a10d51c7e6efc948261449859befd"
+    },
+    {
+      "file": "assessment.css",
+      "bytes": 43559,
+      "sha256": "62e43053e48dab4e45d493337815a9a290ccb0af8c0e40e4750bcaa2ffc352f8"
+    },
+    {
+      "file": "assessment.js",
+      "bytes": 77162,
+      "sha256": "49f2e104677891e8a4c64bf0e6a0eabc2778b7f66bb3c76220a3087e5f7c3dcd"
+    },
+    {
+      "file": "assets/audit-oct25-v9/toy-car-no-eyes.png",
+      "bytes": 1804778,
+      "sha256": "789219df43519ddd33ad46b933aa9899c1836fbcdd5f23bbc24a456dc2fd09a0"
+    },
+    {
+      "file": "assets/autumn/luna-purple-sweater.png",
+      "bytes": 1913239,
+      "sha256": "143483772bc774faed78d6241763f3d563840f6eddc3d2c20cf57e157b234f68"
+    },
+    {
+      "file": "assets/autumn/luna-rust-jacket.png",
+      "bytes": 1913239,
+      "sha256": "143483772bc774faed78d6241763f3d563840f6eddc3d2c20cf57e157b234f68"
+    },
+    {
+      "file": "assets/autumn/luna-yellow-raincoat.png",
+      "bytes": 1913239,
+      "sha256": "143483772bc774faed78d6241763f3d563840f6eddc3d2c20cf57e157b234f68"
+    },
+    {
+      "file": "assets/autumn/rocky-blue-hoodie.png",
+      "bytes": 1913239,
+      "sha256": "143483772bc774faed78d6241763f3d563840f6eddc3d2c20cf57e157b234f68"
+    },
+    {
+      "file": "assets/autumn/rocky-flannel-vest.png",
+      "bytes": 1913239,
+      "sha256": "143483772bc774faed78d6241763f3d563840f6eddc3d2c20cf57e157b234f68"
+    },
+    {
+      "file": "assets/autumn/rocky-green-jacket.png",
+      "bytes": 1913239,
+      "sha256": "143483772bc774faed78d6241763f3d563840f6eddc3d2c20cf57e157b234f68"
+    },
+    {
+      "file": "assets/business-button-cats.png",
+      "bytes": 2573489,
+      "sha256": "e813068282fd44c700ff4e665cc96ae30b8ed433c87680bf33805537d7dbec2c"
+    },
+    {
+      "file": "assets/business-guides.png",
+      "bytes": 1913239,
+      "sha256": "143483772bc774faed78d6241763f3d563840f6eddc3d2c20cf57e157b234f68"
+    },
+    {
+      "file": "assets/entry-luna-frankenstein.png",
+      "bytes": 2171519,
+      "sha256": "b06118390189f81c172955306bd5ced285a84543c3d31c2b8c0a045edbee156a"
+    },
+    {
+      "file": "assets/entry-pirate-wizard.png",
+      "bytes": 2098356,
+      "sha256": "36d4c20ce93440c0c5c4324fbdc6b76f4e0593505592a9a1467d334016927ece"
+    },
+    {
+      "file": "assets/entry-rocky-dracula.png",
+      "bytes": 2056573,
+      "sha256": "94ecd94df6b2312aa75c2db45632787a33d6edddba2ffe74a479414d55987844"
+    },
+    {
+      "file": "assets/fonts/Andika-Bold.ttf",
+      "bytes": 817832,
+      "sha256": "3ad43a77a29ea060528be69a9e0e81c9dbbe8dff894a26ae1818d3c472393319"
+    },
+    {
+      "file": "assets/fonts/Andika-Bold.woff2",
+      "bytes": 299540,
+      "sha256": "d42a45070e8e85ed4122a56c826fd3e894ba5ea205fcda6c6bcd000efabff208"
+    },
+    {
+      "file": "assets/fonts/Andika-BoldItalic.woff2",
+      "bytes": 315136,
+      "sha256": "42b1be871ca7be536628046a8d86deec34c01dea2340e6f8388c4741a47234f9"
+    },
+    {
+      "file": "assets/fonts/Andika-Italic.woff2",
+      "bytes": 310588,
+      "sha256": "c9ddf781aeacfce4134a0f19b243c77ba8c9b336e8480daca88aac9596526232"
+    },
+    {
+      "file": "assets/fonts/Andika-OFL.txt",
+      "bytes": 4501,
+      "sha256": "fd0f044f061aa463fa1675a71fa0c229a067e2062c321c89e5f20965883f23b2"
+    },
+    {
+      "file": "assets/fonts/Andika-Regular.ttf",
+      "bytes": 802572,
+      "sha256": "27484fdc98d0d63f90407f8266e28295f6fb16d2b13c5024df0214f17152919a"
+    },
+    {
+      "file": "assets/fonts/Andika-Regular.woff2",
+      "bytes": 295740,
+      "sha256": "bd46cba17fb1ee30023f88376810cee1787c918d34933e0d761485375e2c1bcb"
+    },
+    {
+      "file": "assets/fonts/andika.css",
+      "bytes": 1628793,
+      "sha256": "1bb095a27d1dd7334ca9c56509c1962e61989267b47a3f13741f7758929b7ffd"
+    },
+    {
+      "file": "assets/fonts/Nunito.ttf",
+      "bytes": 276932,
+      "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207"
+    },
+    {
+      "file": "assets/fonts/OFL.txt",
+      "bytes": 4385,
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+    },
+    {
+      "file": "assets/halloween/luna-frankenstein.png",
+      "bytes": 1913239,
+      "sha256": "143483772bc774faed78d6241763f3d563840f6eddc3d2c20cf57e157b234f68"
+    },
+    {
+      "file": "assets/halloween/rocky-dracula.png",
+      "bytes": 1913239,
+      "sha256": "143483772bc774faed78d6241763f3d563840f6eddc3d2c20cf57e157b234f68"
+    },
+    {
+      "file": "assets/mummy-friends.png",
+      "bytes": 1913239,
+      "sha256": "143483772bc774faed78d6241763f3d563840f6eddc3d2c20cf57e157b234f68"
+    },
+    {
+      "file": "assets/trade-ungroup-cats.png",
+      "bytes": 2186221,
+      "sha256": "a3fab866fab8539422ab3be867030d3ae710bb8fa1f6ef632e7016b81000c105"
+    },
+    {
+      "file": "assets-inline.js",
+      "bytes": 11541313,
+      "sha256": "ad55a853a4c8367c3a2660c7da5f6da70c32e41ec5359b1bf3b20a9c36da8739"
+    },
+    {
+      "file": "audit-reuse.css",
+      "bytes": 5068,
+      "sha256": "91944bcd475e8fbbe6f5d63c987038f3b773a25801f1795e1b1ee29e35c5c055"
+    },
+    {
+      "file": "balance-assessment.js",
+      "bytes": 16713,
+      "sha256": "dfe95821e6383b2e1136b2fa465fdcef3803a90232e7d884c3e35f59c2f3c15f"
+    },
+    {
+      "file": "block-controls.js",
+      "bytes": 20842,
+      "sha256": "11dd84f47c84ff977fa8dd0cc751eb825286fdf6bb38339edc1c3955445ba92c"
+    },
+    {
+      "file": "block-movement.js",
+      "bytes": 3781,
+      "sha256": "3430f488e9fae406ae01224cb1f6f74f6a2df0cb04c9b4f9ddbbf98297bb7c9f"
+    },
+    {
+      "file": "button-feedback.js",
+      "bytes": 4287,
+      "sha256": "5bd857ff015612841cdb0d100a20121e53f5ca742988a4427e937de62af7d04e"
+    },
+    {
+      "file": "content-controls.js",
+      "bytes": 6860,
+      "sha256": "2b3dd3c5b24bc37875cb804dfbef96c81e732246d1f2f850febc9f61d7204799"
+    },
+    {
+      "file": "current-catalog.js",
+      "bytes": 5368,
+      "sha256": "84937a317abc1fad83ded38665435de990c8b33b71acb3ee8d1fb32ff1ce0ae8"
+    },
+    {
+      "file": "font-inline.js",
+      "bytes": 1628852,
+      "sha256": "077c3f482d992a15aa666dbe22fbd8fa3ff52d24db1c4e70833236a052d745fd"
+    },
+    {
+      "file": "four-part-plan.js",
+      "bytes": 13797,
+      "sha256": "0ddb0c5f4f8a8af8e341ad5811f4e34d2c4210c607fe550a6a1f4f9f7fedf75d"
+    },
+    {
+      "file": "index.html",
+      "bytes": 6388,
+      "sha256": "00e976d7976ccda7a04b61bd5acb73627f0a726aecfb26aca4f52d781b60ca3b"
+    },
+    {
+      "file": "item-assessment.js",
+      "bytes": 30357,
+      "sha256": "4d315b6102a98c83b7809a904cc3e0b4cbff6f97741099fe20a8e9237ad434f5"
+    },
+    {
+      "file": "Math-Landing-Excite-Page-Catalogue.pdf",
+      "bytes": 8746104,
+      "sha256": "ed1f71fe97592af11228ae8664dbdcb757aa0bca46ab23a8d914e262b11a84bf"
+    },
+    {
+      "file": "Math-Landing-Inspire-Page-Catalogue.pdf",
+      "bytes": 9256061,
+      "sha256": "3c6950e8ad7f419e5e9d6ededfd971d29f232b16a1df5828e14ffa0c2fa5301d"
+    },
+    {
+      "file": "Math-Landing-Parent-Results-Sample.pdf",
+      "bytes": 268706,
+      "sha256": "a68c02f3fb7dc89b422a53c7e0e312cf3a587e28431711acb7359f36969c9847"
+    },
+    {
+      "file": "Math-Landing-Unique-Page-Codes.csv",
+      "bytes": 17314,
+      "sha256": "a09cbff7401e326198567ae51233faab42e2a586520cd73779b8f494af0f1611"
+    },
+    {
+      "file": "model-layout.js",
+      "bytes": 4248,
+      "sha256": "dc3f62568c964607f360c28108db4a1df8e4e2bde7459e233b23a54950224525"
+    },
+    {
+      "file": "ones-scatter.js",
+      "bytes": 6635,
+      "sha256": "5f58ecd47f03471737da8b0623cedfdf66078df740da6571247ccb390da4c198"
+    },
+    {
+      "file": "page-catalogue-data.js",
+      "bytes": 24004638,
+      "sha256": "c5124829a8781a60b5cda7a05aa53f651667d0f783eebc551a921708b2291143"
+    },
+    {
+      "file": "page-catalogues.js",
+      "bytes": 1745,
+      "sha256": "789cd6888baf6c7f47c56a87ed2e6e7f9180c2b9a178ae46baea880a8a9c9ac5"
+    },
+    {
+      "file": "parent-results.js",
+      "bytes": 14215,
+      "sha256": "812251e97fff29bfbf660f25c8a271278f5f98369672baee2e8d1bb8788a3d63"
+    },
+    {
+      "file": "part4-tasks.js",
+      "bytes": 8902,
+      "sha256": "d065826e6279e267a028d54e7363d2776b6e38cf1771b8b339906406948d1789"
+    },
+    {
+      "file": "pattern-assessment.js",
+      "bytes": 16983,
+      "sha256": "60453295bdf73d17a53f4a5f3406b25f4410d500818a16ac4d1f55ac24da3e99"
+    },
+    {
+      "file": "question-focus.js",
+      "bytes": 17588,
+      "sha256": "87ec9309c54d3ff085a9de0d3bb79dcca05b5255bd77b9169c8395a18eed8de4"
+    },
+    {
+      "file": "README.txt",
+      "bytes": 1032,
+      "sha256": "b3d5d64a21f69119c9cf6485c05432ce80ba52a459972bd2f27930fc76836a48"
+    },
+    {
+      "file": "regroup-assessment.js",
+      "bytes": 2420,
+      "sha256": "d609068ff8c9af37ddd3cf7f18c7161789d0df7f17084daf0fd6e856f2e2fe83"
+    },
+    {
+      "file": "requested-page-adapter.js",
+      "bytes": 18865,
+      "sha256": "1f1016c947abcbfbd06cdcc0a472560a25c2b9f652c3e5d19475e617527bc961"
+    },
+    {
+      "file": "requested-pages.js",
+      "bytes": 36892,
+      "sha256": "5fd85c03a3041ea44f32533d779c814474037c12a301b55a28a2899a23486bd7"
+    },
+    {
+      "file": "REUSE-MANIFEST.json",
+      "bytes": 13777,
+      "sha256": "5d7b2a20ebd3a262f6059f76b5c5a75e8df87449fdcd0e36a3690e41b770e17f"
+    },
+    {
+      "file": "source-engines.js",
+      "bytes": 1781577,
+      "sha256": "1653431a625644ded484c8e76221eedc468c9bc5a1949571c15fdca79abc0740"
+    },
+    {
+      "file": "subtraction-assessment.js",
+      "bytes": 5591,
+      "sha256": "932dc3983ac3652f6eb3f15d41e734e24b8023c75753125d83fb8ae3f202504d"
+    },
+    {
+      "file": "task-extensions.js",
+      "bytes": 16997,
+      "sha256": "22fdaf818a42a4097e4cb55c7d681cd7f023a39b158cb2a7415ce950fac65e52"
+    },
+    {
+      "file": "Teacher-Guide.txt",
+      "bytes": 12650,
+      "sha256": "39c06d951e3ae362394d34506506d13a86e2249c167064045c5d3fbc921adf10"
+    },
+    {
+      "file": "three-part-plan.js",
+      "bytes": 1074,
+      "sha256": "33172965592ec18fddc1464e13f4061d9d17555ed8ae318d23f66d694f21f60d"
+    },
+    {
+      "file": "vendor/assessment-excel-pages.js",
+      "bytes": 3890,
+      "sha256": "7947da723984a132f116023555234d77ecf261fed0e8fd33f92eab685a5908a0"
+    },
+    {
+      "file": "vendor/audit-print-reuse.js",
+      "bytes": 18216,
+      "sha256": "2863c909df016c877367635b9c061b0984b12d31a93689c56c0fa10400f24656"
+    },
+    {
+      "file": "vendor/exceljs.min.js",
+      "bytes": 947702,
+      "sha256": "7e49da68588e250dbb8bba190d2caa8ab3787cc0284bda1d8b2f805c4df742c9"
+    },
+    {
+      "file": "vendor/html2canvas.min.js",
+      "bytes": 198689,
+      "sha256": "e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb"
+    },
+    {
+      "file": "vendor/learner-assessment.js",
+      "bytes": 7656,
+      "sha256": "f70da039329605e832bd627866831f4d15c20678f82d65d6fe9fa01f832c7ab8"
+    },
+    {
+      "file": "vendor/profiles.js",
+      "bytes": 1667,
+      "sha256": "051afb1e6e51683f491fa10d7b6e3744bd1894a5a1be4d6130a48ef1c3d05e9f"
+    },
+    {
+      "file": "vendor/response-summary.js",
+      "bytes": 5987,
+      "sha256": "e39ba06dbf0ce8acb10e85368e0b70057c0ed267641a5e382744bf43c6c4f674"
+    },
+    {
+      "file": "vendor/rover-images.js",
+      "bytes": 785,
+      "sha256": "964229493b68ff7a27666ef449a167cca3d7a7a2ddd06f5bc8ba041625a83683"
+    },
+    {
+      "file": "vendor/screen-pdf.js",
+      "bytes": 2918,
+      "sha256": "12ec4f5f43f4e768cf0a3a4a572f5959bf11fbd537eb97cb3810599b553a5bfc"
+    },
+    {
+      "file": "vendor/teacher-admin-reuse.js",
+      "bytes": 29777,
+      "sha256": "4b5214be37c3d837f3e477477ce76ba87265b9565fe111395b0e617f7bbca6de"
+    }
+  ],
+  "modifiedCopies": [
+    "index.html",
+    "assessment.js",
+    "assessment-core.js",
+    "four-part-plan.js",
+    "parent-results.js",
+    "vendor/learner-assessment.js"
+  ],
+  "addedFiles": [
+    "math-landing-navigation.js",
+    "math-landing-navigation.css",
+    "grade1-assessment.js",
+    "grade1-presentation.js",
+    "grade1-assessment.css"
+  ],
+  "assessmentCodes": "Preserved from the original assessment; no reassignment or renumbering.",
+  "storage": "Original assessment database and key names retained.",
+  "grade1": {
+    "parts": 4,
+    "questionsPerPart": 5,
+    "questions": 20
+  }
+}
